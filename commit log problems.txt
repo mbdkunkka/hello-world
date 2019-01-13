@@ -4,3 +4,11 @@
   b. commit push commit push 能否清掉第一次commit和push
 2.在分支中工作的时候， 遇到需要暂停， 切到别的分支去工作，这个时候需要临时commit，
    可能commit多次后才初步完成，这时候要merge到其他分支，会出现好多中间不必要的commit记录
+
+联系的过程，
+第一步是commit commit push
+看到服务器上果然后两次commit的log
+
+第二步是commit commit (combine to one commit ) push
+在第二次commit之后，点进show log里，选中最近需要合并的commit，右键，combine to one commit
+然后push，不知道这个合并的commit合不合一跨越着合并，先不测了。
