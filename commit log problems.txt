@@ -1,4 +1,6 @@
 1.在本地分支commit 多次，最后push的时候会显示多次commit
-  怎么把他们合并成一个
+  怎么把他们合并成一个。
+  a. commit commit push  能否把置显示后一次的log
+  b. commit push commit push 能否清掉第一次commit和push
 2.在分支中工作的时候， 遇到需要暂停， 切到别的分支去工作，这个时候需要临时commit，
    可能commit多次后才初步完成，这时候要merge到其他分支，会出现好多中间不必要的commit记录
