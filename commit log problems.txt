@@ -12,3 +12,7 @@
 第二步是commit commit (combine to one commit ) push
 在第二次commit之后，点进show log里，选中最近需要合并的commit，右键，combine to one commit
 然后push，不知道这个合并的commit合不合一跨越着合并，先不测了。
+
+第三步我已经建了一个combine_merge_commits分支，已经commit一次了，再次修改，再commit，
+感觉combine to one commit 就是基于各个分支的功能，与push没关系。
+combine to one commit 是在最后一次commit结束后才做的， 而不是说在最后一次边commit边combine.
